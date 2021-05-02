@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images/bg2.jpg);
+    background-size: cover;
+    width: 70%;
+    margin: 0 auto;
+    color: beige;
+    text-shadow: 2px 2px #000000; 
+}
+
+hr {
+    width: 70%;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+/*header styles */
+
+header {
+    display: flex;
+    height: 160px;
+    justify-content: space-around;
+    background: #22181C;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.link {
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 150px;
+    text-align: center
+}
+
+a:hover {
+    color: tomato;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+#headerlogo {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #000000;
+    border-radius: 5px;
+}
+
+/* Section 1 */
+
+.section-odd {
+    height: 375px;
+    background-image: linear-gradient(90deg, #BF4E30, rgba(255, 255, 0, 0.247));
+}
+
+.title {
+    margin: 15px;
+    font-size: 24px;
+    width: 450px;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+}
+
+#video {
+    align-self: center;
+    border-radius: 1;
+}
+
+/* Section 2 */
+
+.section-even {
+    height: 400px;
+    text-align: center;
+    background-image: linear-gradient(270deg, #BF4E30, rgba(255, 255, 0, 0.247));
+}
+
+.even {
+    height: 250px;
+    width: 400px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Section 4 */
+
+#quote {
+    background-color: #00000050;
+    border-radius: 80px;
+    height: 60%;
+    width: 40%;
+}
+
+#bob {
+    justify-content: center;
+}
+
+/* footer styles */
+
+footer {
+    display: flex;
+    height: 150px;
+    justify-content: space-around;
+    background: #646464da;
+    border-radius: 5px;
+}
+
+#footerlogo {
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    border: 4px solid #000000;
+    border-radius: 5px;
+}
+
+#copyright {
+    width: 250px;
+    font-size: 12px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.footnav {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 40px;
+}
+
+#end {
+    display: flex;
+    align-self: flex-end;
+    width: 175px;
+    margin-bottom: 18px;
+}
+
+#social {
+    justify-content: space-between;
+    width: 125px;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
