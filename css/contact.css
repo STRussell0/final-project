@@ -12,11 +12,9 @@ hr {
     width: 70%;
 }
 
-section {
-    display: flex;
-    justify-content: space-around;
-    border-radius: 5px;
-}
+/* Form section */
+
+
 
 /*header styles */
 
@@ -60,6 +58,10 @@ a:hover {
     align-self: center;
     font-size: 48px;
 }
+
+/*Form section*/
+
+
 
 /* footer styles */
 
