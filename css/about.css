@@ -20,6 +20,15 @@ section {
     border-radius: 5px;
 }
 
+#mango-resource  {
+    text-align: center;
+    background-image: linear-gradient(270deg, #BF4E30, rgba(255, 255, 0, 0.247));
+}
+
+#mango-location, #process {
+    background-image: linear-gradient(90deg, #BF4E30, rgba(255, 255, 0, 0.247));
+}
+
 /*header styles */
 
 header {
@@ -64,12 +73,7 @@ a:hover {
     font-size: 48px;
 }
 
-/* Section 1 */
-
-.section-odd {
-    height: 375px;
-    background-image: linear-gradient(90deg, #BF4E30, rgba(255, 255, 0, 0.247));
-}
+/* Mango resources */
 
 .title {
     margin: 15px;
@@ -81,17 +85,10 @@ a:hover {
 }
 
 #video {
-    align-self: center;
-    border-radius: 1;
+    margin: 10px;
 }
 
-/* Section 2 */
-
-.section-even {
-    height: 400px;
-    text-align: center;
-    background-image: linear-gradient(270deg, #BF4E30, rgba(255, 255, 0, 0.247));
-}
+/* Mango Location */
 
 .even {
     height: 250px;
@@ -101,7 +98,7 @@ a:hover {
     border-radius: 5px;
 }
 
-/* Section 4 */
+/* Bob Mango section */
 
 #quote {
     background-color: #00000050;
@@ -111,7 +108,9 @@ a:hover {
 }
 
 #bob {
+    height: 375px;
     justify-content: center;
+    background-image: linear-gradient(270deg, #BF4E30, rgba(255, 255, 0, 0.247));
 }
 
 /* footer styles */
@@ -161,4 +160,9 @@ footer {
     display: flex;
     align-self: flex-end;
     margin-bottom: 10px;
+}
+
+.fa {
+    text-decoration: none;
+    color: silver;
 }
