@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(/images/bg2.jpg);
@@ -57,6 +59,7 @@ a:hover{
 }
 
 #header-title {
+    font-family: 'Lobster';
     align-self: center;
     font-size: 48px;
 }
@@ -134,7 +137,6 @@ button {
 }
 
 #review-top {
-    height: 100px;
     text-align: center;
 }
 
@@ -153,11 +155,11 @@ button {
     border-radius: 5%;
     color: #000000;
     text-shadow: none;
+    margin-bottom: 20px;
 }
 
 #review-bottom {
     justify-content: space-evenly;
-    height: 400px;
     text-align: center;
 }
 
