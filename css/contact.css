@@ -15,12 +15,6 @@ hr {
     width: 70%;
 }
 
-/* Form section */
-
-
-
-/*header styles */
-
 header {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -66,7 +60,17 @@ a:hover {
 
 /*Form section*/
 
+.form {
+    width: 35%;
+    background-color: rgb(114, 110, 110);
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid beige;
+}
 
+.form-boxes {
+    display: -webkit-inline-box;
+}
 
 /* footer styles */
 
