@@ -70,7 +70,7 @@ a:hover{
 
 #main {
     height: 900px;
-    background-image: url(/images/hero-image75.png);
+    background-image: url(./images/hero-image75.png);
 }
 
 button:hover {
