@@ -58,6 +58,19 @@ a:hover {
     font-size: 48px;
 }
 
+
+#map {
+    max-width: fit-content;
+    background-color: rgb(114, 110, 110);
+    border-radius: 5px;
+    margin: 0px 5px 5px 0px;
+    padding: 5px;
+    border: 2px solid beige;
+}
+
+#map p {
+    width: 600px;
+}
 /*Form section*/
 
 .form {
@@ -71,9 +84,8 @@ a:hover {
 }
 
 .form-boxes {
-     display: -webkit-inline-box; /*This is a new display I wasn't quite sure of but it seems that it works very well with filling the contents of the defined box */
+     display: inline-block;
 }
-
 /* footer styles */
 
 footer {
