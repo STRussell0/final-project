@@ -58,29 +58,34 @@ a:hover {
     font-size: 48px;
 }
 
+/* Map section */
 
-#map {
-    max-width: fit-content;
+#map, #form, #contact{
     background-color: rgb(114, 110, 110);
     border-radius: 5px;
     margin: 0px 5px 5px 0px;
     padding: 5px;
     border: 2px solid beige;
+}
+
+#map {
+    max-width: fit-content;
 }
 
 #map p {
     width: 600px;
 }
+
 /*Form section*/
 
-.form {
+#form {
     float: left;
     width: 45%;
-    background-color: rgb(114, 110, 110);
-    border-radius: 5px;
-    margin: 0px 5px 5px 0px;
-    padding: 5px;
-    border: 2px solid beige;
+}
+
+#contact {
+    float: left;
+    height: 282px;
 }
 
 .form-boxes {
