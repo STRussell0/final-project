@@ -21,14 +21,6 @@ section {
     border-radius: 5px;
 }
 
-#mango-resource  {
-    background-image: linear-gradient(270deg, #BF4E30, rgba(255, 255, 0, 0.247));
-}
-
-#mango-location, #process {
-    background-image: linear-gradient(90deg, #BF4E30, rgba(255, 255, 0, 0.247));
-}
-
 /*header styles */
 
 header {
@@ -76,6 +68,10 @@ a:hover {
 
 /* Mango resources */
 
+#mango-resource  {
+    background-image: linear-gradient(270deg, #BF4E30, rgba(255, 255, 0, 0.247));
+}
+
 #mango-resource div {
     width: 30%;
     padding: 5px;
@@ -103,6 +99,10 @@ div a {
 }
 
 /* Mango Location */
+
+#mango-location, #process {
+    background-image: linear-gradient(90deg, #BF4E30, rgba(255, 255, 0, 0.247));
+}
 
 .even {
     height: 250px;
