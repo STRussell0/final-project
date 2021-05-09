@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
+/*etc code to stylize each web page*/
+
 body {
     font-family: 'Mulish';
     background-image: url(../images/bg2.jpg);
@@ -15,6 +17,8 @@ hr {
     width: 70%;
 }
 
+/*header styles - used across all web pages */
+
 header {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -23,7 +27,6 @@ header {
     background: #22181C;
     border-radius: 5px;
     color: rgb(255, 255, 255);
-    font-size: 18px;
     font-weight: bold;
 }
 
@@ -58,7 +61,7 @@ a:hover {
     font-size: 48px;
 }
 
-/* Map section */
+/* FIRST SECTION Map section */
 
 #map, #form, #contact{
     background-color: rgb(114, 110, 110);
@@ -76,7 +79,7 @@ a:hover {
     width: 600px;
 }
 
-/*Form section*/
+/*SECOND SECTION Form section*/
 
 #form {
     float: left;
@@ -91,7 +94,7 @@ a:hover {
 .form-boxes {
      display: inline-block;
 }
-/* footer styles */
+/* footer styles - used across all web pages */
 
 footer {
     clear: both;
@@ -124,7 +127,6 @@ footer {
     font-size: 12px;
     color: rgb(255, 255, 255);
     padding: 5px;
-    width: 40px;
 }
 
 #end {
