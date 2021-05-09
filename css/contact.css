@@ -69,26 +69,22 @@ a:hover {
     margin: 0px 5px 5px 0px;
     padding: 5px;
     border: 2px solid beige;
+    text-align: center;
+    flex-grow: 1;
 }
 
 /* FIRST SECTION Map section */
 
-#map {
-    text-align: center;
+/* Jeff changes */
+
+#entire {
+    display: flex;
+    flex-direction: column;
 }
 
-/*SECOND SECTION Form section - I decided to try float for this part instead of flex to show how it works*/
-
-#form {
-    float: left;
-    width: 49%;
-}
-
-#contact {
-    text-align: center;
-    float: left;
-    height: 282px;
-    width: 48%;
+#bottom {
+    display: flex;
+    flex-direction: row;
 }
 
 .form-boxes {
