@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
+/*etc code to stylize each web page*/
+
 body {
     font-family: 'Mulish';
     background-image: url(../images/bg2.jpg);
@@ -15,13 +17,16 @@ hr {
     width: 70%;
 }
 
+/*first instance of display:flex, which is a neat property that gives a container the ability 
+to alter its items width/height to best fill the avalable space. I use it in this project due
+to its ability to place certain divs in spaces I want with ease*/
+
 section {
     display: flex;
-    justify-content: space-around;
     border-radius: 5px;
 }
 
-/*header styles */
+/*header styles - used across all web pages */
 
 header {
     font-family: Arial, Helvetica, sans-serif;
@@ -31,7 +36,6 @@ header {
     background: #22181C;
     border-radius: 5px;
     color: rgb(255, 255, 255);
-    font-size: 18px;
     font-weight: bold;
 }
 
@@ -66,11 +70,13 @@ a:hover{
     font-size: 48px;
 }
 
-/*section 1*/
+/*FIRST SECTION*/
 
 #main {
     height: 900px;
     background-image: url(../images/hero-image75.png);
+    justify-content: space-around;
+    background-size: cover;
 }
 
 button:hover {
@@ -79,8 +85,7 @@ button:hover {
 
 .title {
     margin: 15px;
-    font-size: 24px;
-    width: 300px;
+    font-size: 36px;
     font-weight: bold;
     align-self: center;
     text-align: center;
@@ -98,7 +103,7 @@ button {
 	text-align: center;
 }
 
-/* section 2 */
+/* SECOND SECTION */
 
 .section-even {
     background-image: linear-gradient(270deg, #BF4E30, rgba(255, 255, 0, 0.247));
@@ -109,6 +114,7 @@ button {
     height: 400px;
     text-align: center;
     font-size: 28px;
+    justify-content: space-around;
 }
 
 .mango {
@@ -129,9 +135,10 @@ button {
 #mango-bottom {
     height: 400px;
     text-align: center;
+    justify-content: space-around;
 }
 
-/* section 3 */
+/* THIRD SECTION */
 
 .section-odd{
     background-image: linear-gradient(90deg, #BF4E30, rgba(255, 255, 0, 0.247));
@@ -140,6 +147,7 @@ button {
 
 #review-top {
     text-align: center;
+    justify-content: space-around;
 }
 
 .review {
@@ -163,9 +171,10 @@ button {
 #review-bottom {
     justify-content: space-evenly;
     text-align: center;
+    justify-content: space-around;
 }
 
-/* footer styles */
+/* FOOTER */
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
