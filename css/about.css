@@ -89,7 +89,7 @@ a:hover {
 
 #mango-resource  {
     background-image: linear-gradient(270deg, #BF4E30, rgba(255, 255, 0, 0.247));
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 #mango-resource div {
