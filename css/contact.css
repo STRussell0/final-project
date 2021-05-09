@@ -10,7 +10,7 @@ body {
     width: 70%;
     margin: 0 auto;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px #000000; 
+    text-shadow: 2px 2px #000000;
 }
 
 hr {
@@ -61,7 +61,7 @@ a:hover {
     font-size: 48px;
 }
 
-/* FIRST SECTION Map section */
+/*General formatting*/
 
 #map, #form, #contact{
     background-color: rgb(114, 110, 110);
@@ -71,30 +71,30 @@ a:hover {
     border: 2px solid beige;
 }
 
+/* FIRST SECTION Map section */
+
 #map {
-    max-width: fit-content;
+    text-align: center;
 }
 
-#map p {
-    width: 600px;
-}
-
-/*SECOND SECTION Form section*/
+/*SECOND SECTION Form section - I decided to try float for this part instead of flex to show how it works*/
 
 #form {
     float: left;
-    width: 45%;
+    width: 49%;
 }
 
 #contact {
+    text-align: center;
     float: left;
     height: 282px;
+    width: 48%;
 }
 
 .form-boxes {
      display: inline-block;
 }
-/* footer styles - used across all web pages */
+/* footer styles - used across all web pages - note: I added clear:both to the footer to allow it to properly display below the floating sections above*/
 
 footer {
     clear: both;
