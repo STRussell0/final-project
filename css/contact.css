@@ -61,9 +61,11 @@ a:hover {
     font-size: 48px;
 }
 
-/*General formatting*/
+/*General formatting - Used display: flex with flex-direction: column to place the content
+into one column, but separated the bottom 2 contact areas as their own divs so they would 
+be next to each other again.*/
 
-#map, #form, #contact{
+.contact{
     background-color: rgb(114, 110, 110);
     border-radius: 5px;
     margin: 0px 5px 5px 0px;
@@ -73,10 +75,6 @@ a:hover {
     flex-grow: 1;
 }
 
-/* FIRST SECTION Map section */
-
-/* Jeff changes */
-
 #entire {
     display: flex;
     flex-direction: column;
@@ -84,16 +82,14 @@ a:hover {
 
 #bottom {
     display: flex;
-    flex-direction: row;
 }
 
 .form-boxes {
      display: inline-block;
 }
-/* footer styles - used across all web pages - note: I added clear:both to the footer to allow it to properly display below the floating sections above*/
+/* footer styles - used across all web pages*/
 
 footer {
-    clear: both;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     height: 150px;
