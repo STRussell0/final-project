@@ -132,14 +132,10 @@ button {
 
 /* THIRD SECTION */
 
-.section-odd{
+#reviews{
     background-image: linear-gradient(90deg, #BF4E30, rgba(255, 255, 0, 0.247));
     border-radius: 5px;
-}
-
-#review-top {
-    text-align: center;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
 .review {
@@ -161,9 +157,9 @@ button {
 }
 
 #review-bottom {
+    display: flex;
     justify-content: space-evenly;
     text-align: center;
-    justify-content: space-around;
 }
 
 /* FOOTER */
