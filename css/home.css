@@ -17,9 +17,8 @@ hr {
     width: 70%;
 }
 
-/*first instance of display:flex, which is a neat property that gives a container the ability 
-to alter its items width/height to best fill the avalable space. I use it in this project due
-to its ability to place certain divs in spaces I want with ease*/
+/*first instance of display:flex, which is a neat property that gives you the ability to move items within a container much easier.
+You will see section IDs below that will have different flex properties*/
 
 section {
     display: flex;
@@ -72,10 +71,10 @@ a:hover{
 
 /*FIRST SECTION*/
 
-#main {
+#hero {
     height: 900px;
     background-image: url(../images/hero-image75.png);
-    justify-content: space-around;
+    justify-content: center;
     background-size: cover;
 }
 
@@ -105,16 +104,10 @@ button {
 
 /* SECOND SECTION */
 
-.section-even {
+#only-frozen {
     background-image: linear-gradient(270deg, #BF4E30, rgba(255, 255, 0, 0.247));
     border-radius: 5px;
-}
-
-#mango-top {
-    height: 400px;
-    text-align: center;
-    font-size: 28px;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
 .mango {
@@ -127,15 +120,14 @@ button {
 .title2 {
     font-size: 32px;
     font-weight: bold;
-    align-self: center;
     text-align: center;
     margin-bottom: 30px;
 }
 
-#mango-bottom {
-    height: 400px;
+#only-frozen-bottom {
     text-align: center;
     justify-content: space-around;
+    display: flex;
 }
 
 /* THIRD SECTION */
