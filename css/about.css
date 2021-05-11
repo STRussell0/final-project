@@ -72,6 +72,11 @@ a:hover {
 
 /* FIRST SECTION Mango process section */
 
+#mango-location, #process {
+    background-image: linear-gradient(90deg, #BF4E30, rgba(255, 255, 0, 0.247));
+    justify-content: space-evenly;
+}
+
 .title {
     margin: 15px;
     font-size: 24px;
@@ -81,7 +86,7 @@ a:hover {
     text-align: center;
 }
 
-#video {
+.video {
     margin: 10px;
 }
 
@@ -104,13 +109,6 @@ div a {
     font-weight: bold;
 }
 
-/* THIRD SECTION Mango Location */
-
-#mango-location, #process {
-    background-image: linear-gradient(90deg, #BF4E30, rgba(255, 255, 0, 0.247));
-    justify-content: space-evenly;
-}
-
 .even {
     height: 250px;
     max-width: 100%;
@@ -118,6 +116,8 @@ div a {
     border: 2px solid black;
     border-radius: 5px;
 }
+
+/* THIRD SECTION Mango Location uses class: video, class: title, and id: mango-location from earlier areas ^^^*/
 
 /* FOURTH SECTION Bob Mango section */
 
