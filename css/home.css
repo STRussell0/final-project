@@ -97,10 +97,6 @@ a:hover{
     background-size: cover;
 }
 
-button:hover {
-    color: rgb(64, 184, 90);
-}
-
 .title {
     margin: 15px;
     font-size: 36px;
@@ -121,19 +117,16 @@ button {
 	text-align: center;
 }
 
+button:hover {
+    color: rgb(64, 184, 90);
+}
+
 /* SECOND SECTION */
 
 #only-frozen {
     background-image: linear-gradient(270deg, #BF4E30, rgba(255, 255, 0, 0.247));
     border-radius: 5px;
-    flex-direction: column;
-}
-
-.mango {
-    height: 250px;
-    width: 250px;
-    border-radius: 5%;
-    border: 2px solid black;
+    flex-direction: column; /* This is so the items within this container are placed on top of each other. */
 }
 
 .title2 {
@@ -146,7 +139,14 @@ button {
 #only-frozen-bottom {
     text-align: center;
     justify-content: space-around;
-    display: flex;
+    display: flex; /* Adding this overrides the flex-direction from before and places the items within as a row. */
+}
+
+.mango {
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+    border: 2px solid black;
 }
 
 /* THIRD SECTION */
@@ -157,12 +157,10 @@ button {
     flex-direction: column;
 }
 
-.review {
-    width: 200px;
-    height: 300px;
-    border: 2px solid black;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+#review-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .reviewbg {
@@ -175,10 +173,12 @@ button {
     margin-bottom: 20px;
 }
 
-#review-bottom {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
+.review {
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
 
 /* FOOTER */
@@ -207,6 +207,19 @@ footer {
     align-self: flex-end;
 }
 
+#social {
+    justify-content: space-between;
+    width: 125px;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.fa {
+    text-decoration: none;
+    color: silver;
+}
+
 .footnav {
     text-decoration: none;
     font-weight: bold;
@@ -220,18 +233,5 @@ footer {
     align-self: flex-end;
     width: 175px;
     margin-bottom: 18px;
-}
-
-#social {
-    justify-content: space-between;
-    width: 125px;
-    display: flex;
-    align-self: flex-end;
-    margin-bottom: 10px;
-}
-
-.fa {
-    text-decoration: none;
-    color: silver;
 }
 
