@@ -27,30 +27,12 @@ section {
 header {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    height: 160px;
+    height: 160px; /* Normally display:flex will just adapt to fit the height and width of the children, but I have assigned a height to fit better */
     justify-content: space-around;
     background: #22181C;
     border-radius: 5px;
     color: rgb(255, 255, 255);
     font-weight: bold;
-}
-
-.link {
-    text-decoration: none;
-    font-size: 28px;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    width: 150px;
-    text-align: center
-}
-
-a:hover {
-    color: tomato;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
 }
 
 #headerlogo {
@@ -65,6 +47,25 @@ a:hover {
     align-self: center;
     font-size: 48px;
 }
+
+.link {
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 150px;
+    text-align: center
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+}
+
+a:hover{
+    color: tomato;
+}
+
 
 /* FIRST SECTION Mango process section */
 
