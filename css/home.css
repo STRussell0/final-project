@@ -18,7 +18,19 @@ hr {
 }
 
 /*first instance of display:flex, which is a neat property that gives you the ability to move items within a container much easier.
-You will see section IDs below that will have different flex properties*/
+You will see section IDs below that will have different flex properties. Here are some examples I used in my project:
+
+Display: Flex - Will define a container as flex and will allow flex properties to be implimented.
+
+Flex-Direction - Will choose the direction that the flex items (direct children) will be placed. Default setting is row.
+
+Justify-Content - This defines the alignment of the flex items (direct children) on your main axis and will distribute extre space leftover. Depending on your Flex-Direction setting, 
+your main axis could be either Y or X.
+
+Align-Items - Similar to Justify-Content, but for the cross axis (the opposite of the main).
+
+Flex-Grow - This gives flex items the ability to flex to fill up the available space.
+*/
 
 section {
     display: flex;
