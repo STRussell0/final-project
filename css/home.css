@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
-/*etc code to stylize each web page*/
+/*Body properties used in all web pages. Some examples include:
+
+Importing two additional font styles (see above)
+
+Background image of mango leaves with cover property so it covers the entire container
+
+Made each page have 70% width to leave some space on the side, as well as set the margin to 0 auto so that the content sits directly in the center and it the 
+header and footer touch the top/bottom*/
 
 body {
     font-family: 'Mulish';
@@ -20,7 +27,7 @@ hr {
 /*first instance of display:flex, which is a neat property that gives you the ability to move items within a container much easier.
 You will see section IDs below that will have different flex properties. Here are some examples I used in my project:
 
-Display: Flex - Will define a container as flex and will allow flex properties to be implimented.
+Display: Flex - Will define a container as flex and will allow flex properties to be implemented.
 
 Flex-Direction - Will choose the direction that the flex items (direct children) will be placed. Default setting is row.
 
@@ -42,30 +49,12 @@ section {
 header {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    height: 160px;
+    height: 160px; /* Normally display:flex will just adapt to fit the height and width of the children, but I have assigned a height to fit better */
     justify-content: space-around;
     background: #22181C;
     border-radius: 5px;
     color: rgb(255, 255, 255);
     font-weight: bold;
-}
-
-.link {
-    font-size: 28px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    width: 150px;
-    text-align: center
-}
-
-a:hover{
-    color: tomato;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
 }
 
 #headerlogo {
@@ -79,6 +68,24 @@ a:hover{
     font-family: 'Lobster';
     align-self: center;
     font-size: 48px;
+}
+
+.link {
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 150px;
+    text-align: center
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+}
+
+a:hover{
+    color: tomato;
 }
 
 /*FIRST SECTION*/
