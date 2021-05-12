@@ -210,7 +210,6 @@ footer {
 }
 
 #end {
-    display: flex;
     align-self: flex-end;
     width: 175px;
     margin-bottom: 18px;
