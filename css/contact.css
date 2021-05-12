@@ -65,6 +65,11 @@ a:hover{
 into one column, but separated the bottom 2 contact areas as their own divs so they would 
 be next to each other again.*/
 
+#entire {
+    display: flex;
+    flex-direction: column;
+}
+
 .contact{
     background-color: rgb(114, 110, 110);
     border-radius: 5px;
@@ -75,11 +80,6 @@ be next to each other again.*/
     flex-grow: 1;
 }
 
-#entire {
-    display: flex;
-    flex-direction: column;
-}
-
 #bottom {
     display: flex;
 }
@@ -87,6 +87,7 @@ be next to each other again.*/
 .form-boxes {
      display: inline-block;
 }
+
 /* footer styles - used across all web pages*/
 
 footer {
@@ -113,20 +114,6 @@ footer {
     align-self: flex-end;
 }
 
-.footnav {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    padding: 5px;
-}
-
-#end {
-    align-self: flex-end;
-    width: 175px;
-    margin-bottom: 18px;
-}
-
 #social {
     justify-content: space-between;
     width: 125px;
@@ -138,4 +125,19 @@ footer {
 .fa {
     text-decoration: none;
     color: silver;
+}
+
+.footnav {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 40px;
+}
+
+#end {
+    align-self: flex-end;
+    width: 175px;
+    margin-bottom: 18px;
 }
