@@ -27,7 +27,6 @@ section {
 header {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    height: 160px; /* Normally display:flex will just adapt to fit the height and width of the children, but I have assigned a height to fit better */
     justify-content: space-around;
     background: #22181C;
     border-radius: 5px;
